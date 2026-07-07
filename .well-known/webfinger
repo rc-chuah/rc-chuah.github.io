@@ -1,0 +1,31 @@
+{
+  "subject": "acct:rc_chuah@mastodon.social",
+  "aliases": [
+    "https://mastodon.social/@rc_chuah",
+    "https://mastodon.social/users/rc_chuah"
+  ],
+  "links": [
+    {
+      "rel": "http://webfinger.net/rel/profile-page",
+      "type": "text/html",
+      "href": "https://mastodon.social/@rc_chuah"
+    },
+    {
+      "rel": "self",
+      "type": "application/activity+json",
+      "href": "https://mastodon.social/users/rc_chuah"
+    },
+    {
+      "rel": "http://ostatus.org/schema/1.0/subscribe",
+      "template": "https://mastodon.social/authorize_interaction?uri={uri}"
+    },
+    {
+      "rel": "https://w3id.org/fep/3b86/Create",
+      "template": "https://mastodon.social/share?text={content}"
+    },
+    {
+      "rel": "https://w3id.org/fep/3b86/Object",
+      "template": "https://mastodon.social/authorize_interaction?uri={object}"
+    }
+  ]
+}
